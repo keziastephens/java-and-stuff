@@ -1,0 +1,21 @@
+@import "resets";
+@import "var";
+@import "mixins";
+@import "nav";
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&display=swap');
+// css specify - font-family: 'Sora', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+// css specify - font-family: 'Lora', serif;
+
+
+
+h1{
+    @include main-heading--style;
+}
+p{
+    @include body-font--style;
+    
+}

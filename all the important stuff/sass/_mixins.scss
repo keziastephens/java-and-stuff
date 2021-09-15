@@ -1,0 +1,14 @@
+
+// text mixins
+
+@mixin main-heading--style {
+    color: palegreen;
+    letter-spacing: 0.2rem;
+    font-size: $main-heading;
+    font-family: $heading-font;
+}
+@mixin body-font--style {
+    color: tomato;
+    letter-spacing: 0.2rem;
+    font-size: $body-text;
+}
